@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Exec</title>
+</head>
+<body>
+
+  <h2>Desenvolva um algoritmo que mostre uma contagem regressiva de 30 até 1, marcando os números que forem divisíveis por 4, </h2>
+  <script>
+function contagemRegressiva() {
+    let i = 30;
+    while (i > 0) {
+        if (i % 4 === 0) {
+            document.write(`[${i}]`);
+        } else {
+            document.write(i);
+        }
+        i--;
+    }
+}
+
+contagemRegressiva();
+
+
+  </script>
+</body>
+</html>

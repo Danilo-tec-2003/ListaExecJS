@@ -10,15 +10,19 @@
 <H2> Faça um programa que leia as duas notas de um aluno em uma matéria e mostre na tela a sua média na disciplina. </H2>
     
 
+<script>
+    let Nota1 = parseInt(prompt("Qual foi sua primeira nota? "))
+let Nota2 = parseInt(prompt("Qual foi sua Segunda nota? "))
+let Media = (Nota1 + Nota2)/2
 
 
+if(isNaN(Nota1,Nota2)) {
+    alert("ERRO, DIGITE UM NÚMERO")
+}
+
+document.write(`A média entre ${Nota1} e ${Nota2} é igual a ${Media}`);
 
 
-
-
-
-
-
-<script src="ex05.js"></script>
+</script>
 </body>
 </html>
